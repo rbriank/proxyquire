@@ -3,6 +3,6 @@
 const { top: {inner, middle} } = require('./baz')
 
 module.exports = {
-  inner,
-  middle
+  inner: inner,
+  middle: middle
 }
